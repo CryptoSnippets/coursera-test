@@ -38,13 +38,12 @@ p {
 
 .item {
   position: absolute;
-  width: 120px;
-  height: 25px;
+  width: 200px;
+  height: 28px;
   top: 0px;
   right: 0px;
   border: 1px solid black;
-  text-align: right;
-  padding-right: 15px;
+  text-align: center;
   font-size: 1.25em;
   font-weight: bold;
 }
