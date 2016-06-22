@@ -2,20 +2,17 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-/*  padding: 0px;
-  margin: 0px;*/
 }
+
 h1 {
   margin-bottom: 15px;
   text-align: center;
 }
 
-
 .container {
   border: none;
   padding: 10px;
 }
-
 
 section {
   border: 1px solid black;
@@ -35,7 +32,6 @@ p {
   margin-left: auto;
   padding: 30px 15px 5px 15px;
   font-family: Helvetica;
-  font-weight: 590;
   color: #3D315B;
   overflow: auto;
 }
@@ -49,7 +45,7 @@ p {
   border: 1px solid black;
   text-align: right;
   padding-right: 15px;
-  font-size: 125%;
+  font-size: 1.25em;
   font-weight: bold;
 }
 
@@ -66,7 +62,6 @@ p {
   background-color: #3D351B;
   color: #F8F991;
 }
-
 
 /* Simple Responsive Framework. */
 .row {
