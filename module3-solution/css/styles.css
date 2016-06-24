@@ -1,7 +1,11 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-weight: 900;
+	box-sizing: border-box;
+}
+a {
+	color: #23527c;
+	font-weight: 600;
 }
 .item {
 	padding: auto;
@@ -10,18 +14,32 @@
 .llogo {
 	font-size: 1.75em;
 	font-weight: bold;
+	color: #ffdf50;
 }
 #collapsable-nav > ul {
 	margin: 0px;
 }
 li {
-	border-bottom: 1px solid #e7e7e7;
+	border-bottom: 1px solid #ffdf50;
 	padding: 5px;
 	margin: 0px;
+	/*font-weight: 900;*/
+}
+li.last{
+	border-bottom: 0px;
 }
 section {
-	height: 1000px;
-	background-color: #f8f8f8;
+	background-color: #ffdf50;
 	border: 1px solid #e7e7e7;
 	margin-bottom: 20px;
+	padding: 20px;
+}
+.navbar {
+	background-color: #234d67;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffdf50;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffdf50;
 }
